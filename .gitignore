@@ -1,0 +1,23 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.myenv/
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Generated plots (keep directory, ignore images)
+backend/static/plots/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
