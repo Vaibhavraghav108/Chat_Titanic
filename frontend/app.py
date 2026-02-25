@@ -1,7 +1,8 @@
+import os
 import streamlit as st
 import requests
 
-BACKEND = "http://localhost:8000"
+BACKEND = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Titanic Dataset Explorer", page_icon="🚢", layout="wide")
 
